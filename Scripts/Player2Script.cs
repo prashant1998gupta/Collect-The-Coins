@@ -17,7 +17,8 @@ public class Player2Script : MonoBehaviour
     void Start()
     {
         
-        body = GetComponent<Rigidbody2D>();
+        body = gameobjet.GetComponent<Rigidbody2D>();
+        // body = this.GetComponent<Rigidbody2D>();
 
         
     }
